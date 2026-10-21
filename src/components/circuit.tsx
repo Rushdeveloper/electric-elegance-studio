@@ -97,7 +97,7 @@ export function Reveal({ children, i = 0, className }: { children: ReactNode; i?
   return (
     <motion.div ref={ref} className={className}
       initial={reduce ? false : { opacity: 0, y: 24 }}
-      animate={seen || reduce ? { opacity: 1, y: 0 } : undefined}
+      animate={seen || reduce ? { opacity: 1, y: 0 } : { opacity: 0, y: 24 }}
       transition={{ duration: 0.6, delay: Math.min(i, 6) * 0.07, ease: [0.22, 1, 0.36, 1] }}>
       {children}
     </motion.div>
