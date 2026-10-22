@@ -86,7 +86,7 @@ function Cable({ side }: { side: 1 | -1 }) {
         <mesh key={i}>
           <tubeGeometry args={[c, 32, i % 4 === 0 ? 0.016 : 0.011, 6, false]} />
           <meshStandardMaterial
-            color={["#e8a05c", "#c47a3a", "#ffd898", "#a8642f"][i % 4]}
+            color={["#e8a05c", "#c47a3a", "#ffd898", "#a8642f"][i % 4]!}
             metalness={0.85}
             roughness={0.28}
             emissive="#3a1c06"
