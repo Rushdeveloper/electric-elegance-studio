@@ -1,9 +1,9 @@
-import { useEffect, useState, type FormEvent } from "react";
+import { useEffect, useState, type FormEvent, type ReactNode } from "react";
 import {
   Zap, Phone, MessageCircle, Fan, Lightbulb, ToggleRight, Cable, ShieldCheck, Wrench, Plug, Search,
   Flame, AlertTriangle, Hand, Thermometer, Activity, Volume2, MapPin, Clock, Languages,
   IndianRupee, Menu, X, ChevronDown, ArrowUp, CheckCircle2, Home, ArrowRight, Mouse, Star,
-  Users, Award, ClipboardCheck, HardHat, BadgeIndianRupee, Play,
+  Users, Award, ClipboardCheck, HardHat, BadgeIndianRupee, Play, Sun,
 } from "lucide-react";
 import { HeroScene } from "./HeroScene";
 import { Reveal } from "./circuit";
