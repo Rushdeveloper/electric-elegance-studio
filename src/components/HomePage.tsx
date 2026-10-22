@@ -416,7 +416,7 @@ export default function HomePage() {
   );
 }
 
-function Section({ id, tag, title, lead, children }: { id: string; tag: string; title: React.ReactNode; lead?: string; children: React.ReactNode }) {
+function Section({ id, tag, title, lead, children }: { id: string; tag: string; title: ReactNode; lead?: string; children: ReactNode }) {
   return (
     <section id={id} className="mx-auto max-w-7xl scroll-mt-24 px-4 py-16 sm:px-6 md:py-24">
       <Reveal>
