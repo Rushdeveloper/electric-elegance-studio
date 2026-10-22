@@ -27,9 +27,6 @@ const photoServices = [
   { img: svcSolar, i: Sun, en: "Solar & Energy Solutions", te: "సోలార్ & ఎనర్జీ సొల్యూషన్స్", d: "Sustainable and efficient energy systems." },
 ];
 
-// Sun icon isn't in the import list above; map it here to keep the data table tidy.
-import { Sun } from "lucide-react";
-
 const repairServices = [
   { i: Fan, en: "Fan repair", te: "ఫ్యాన్ మరమ్మత్తు", d: "Slow, noisy, wobbling or not starting — ceiling, wall & exhaust fans." },
   { i: Lightbulb, en: "Lights & LED", te: "లైట్లు, LED", d: "Tube lights, LED panels, holders and complete lighting circuits." },
